@@ -1,0 +1,41 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "Create first REACT app in web!",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "NOTHING!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliaburas80/react-skeleton.get.git"
+  },
+  "keywords": [
+    "react",
+    "jsx",
+    "skeleton",
+    "angryCloud",
+    "Ali",
+    "AbuRas",
+    "AngryCloud"
+  ],
+  "author": "Ali Abu Ras, aliaburas80@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliaburas80/react-skeleton.get/issues"
+  },
+  "homepage": "https://github.com/aliaburas80/react-skeleton.get#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0"
+  },
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "path-browserify": "0.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "watchify": "^3.7.0"
+  }
+}
